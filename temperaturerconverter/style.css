@@ -1,0 +1,38 @@
+.main{
+    text-align:center;
+     box-sizing: border-box;
+     position: absolute;
+     left:30%;
+     top:10%;
+    border:5px solid rgb(241, 238, 8) ;
+    border-radius:4px;
+    background-color:rgb(5, 61, 87);
+    color:white;
+    width:400px;
+    height:400px;
+    align-items: center;
+    padding-left:"300px";
+    font-size:20px;
+    font-weight:bold;
+}
+#mybtn{
+    color:rgb(236, 13, 13);
+    background-color:rgb(33, 34, 43);
+    font-weight:bold;
+    font-size:30px;
+}
+#mybtn:hover{
+    color:rgb(42, 157, 165);
+    background-color: chocolate;
+
+}
+#textbox{
+    font-size:20px;
+    width:300px;
+}
+h2{
+    color:rgb(219, 67, 194)
+}
+#content{
+    color:white;
+}
