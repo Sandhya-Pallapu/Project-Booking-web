@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Temperature converter</title>
+   <link href="style.css"  rel="stylesheet">
+   
+</head>
+<body>
+    <div class="main">
+         <h2>Temperature Converter</h2><hr/>
+         <form onsubmit="convert();return false;">
+            <input type="number" id="textbox" placeholder="ENTER THE TEMP"><br><br>
+             <input type="radio" id="tocelsius" name="unit">
+              <label for="tocelsius">Farhenheit &rarr; Celsius</label><br><br>
+              <input type="radio" id="tofarhenheit" name="unit">
+            <label for="tofarhenheit">Celsius  &rarr; Farhenheit</label>
+           <br><br>
+            <button onclick="convert()" id="mybtn">Submit</button><br>
+            
+            <p id="content"> </p>
+            
+         </form>
+      </div>
+   <script src="index.js"></script>
+</body>
+</html>
